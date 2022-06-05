@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+.header h1, .header select{
+    margin: 40px 0;
+
+}
+.list-product .card{
+    margin : 10px 0;
+}
+.list-product .card img{
+    height: 300px;
+    width: auto;
+}
+.change-quantity{
+    display: flex;
+    /* align-items: center; */
+}
+.change-quantity .quantity{
+    padding: 0 8px;
+}
+.change-quantity button{
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.change-quantity i{
+    width: 30px;
+    height: 30px;
+    /* border-radius: 50%; */
+    padding-top:25%;
+    background: cyan;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border: transparent;
+}
+.subTotal {
+    font-size: 24px;
+    text-align: end;
+    font-weight: bold;
+    color: rgb(16, 230, 245)
+}
